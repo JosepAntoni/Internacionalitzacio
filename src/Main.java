@@ -66,8 +66,5 @@ public class Main {
         System.out.println(i18n.getString("Explanation"));
         System.out.println(i18n.getString("Leaving"));
     }
-
-    public void hero(){
-        hero.setAge();
-    }
+    
 }
