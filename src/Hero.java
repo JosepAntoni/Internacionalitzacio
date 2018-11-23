@@ -6,7 +6,7 @@ import java.util.ResourceBundle;
 public class Hero {
 
     private static final ResourceBundle i18n =
-            ResourceBundle.getBundle("myProp_es");
+            ResourceBundle.getBundle("myProp_en");
 
     private String hair = null;
     private String age = null;

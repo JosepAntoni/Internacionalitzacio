@@ -8,7 +8,7 @@ import static java.lang.Thread.sleep;
 public class Main {
 
     private static final ResourceBundle i18n =
-            ResourceBundle.getBundle("myProp_es");
+            ResourceBundle.getBundle("myProp_en");
 
     Hero hero = new Hero();
 
@@ -66,5 +66,5 @@ public class Main {
         System.out.println(i18n.getString("Explanation"));
         System.out.println(i18n.getString("Leaving"));
     }
-    
+
 }
