@@ -1,8 +1,12 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ResourceBundle;
 
 public class Hero {
+
+    private static final ResourceBundle i18n =
+            ResourceBundle.getBundle("myProp_es");
 
     private String hair = null;
     private String age = null;
@@ -18,7 +22,7 @@ public class Hero {
     }
 
     public void setHair() {
-        System.out.println("Enter your hair color: ");
+        System.out.println(i18n.getString("Haircolor"));
         String cadena = null;
         try {
             cadena = br.readLine();
@@ -33,7 +37,7 @@ public class Hero {
     }
 
     public void setAge() {
-        System.out.println("Enter your age: ");
+        System.out.println(i18n.getString("Edad"));
         String cadena = null;
         try {
             cadena = br.readLine();
@@ -48,7 +52,7 @@ public class Hero {
     }
 
     public void setName() {
-        System.out.println("Enter your name: ");
+        System.out.println(i18n.getString("Nombre"));
         String cadena = null;
         try {
             cadena = br.readLine();
