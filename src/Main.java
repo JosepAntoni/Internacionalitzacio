@@ -7,8 +7,8 @@ import static java.lang.Thread.sleep;
 
 public class Main {
 
-    private static final ResourceBundle i18n =
-            ResourceBundle.getBundle("myProp_en");
+    public static final ResourceBundle i18n =
+            ResourceBundle.getBundle("myProp_es");
 
     Hero hero = new Hero();
 
